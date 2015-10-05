@@ -15,7 +15,7 @@
 
 - (void)workWithHour:(NSUInteger)h {
     for (NSUInteger i=0; i<h; i++) {
-        NSLog(@"SLEEP");
+        NSLog(@"SLEEP %1", i);
     }
 }
 
