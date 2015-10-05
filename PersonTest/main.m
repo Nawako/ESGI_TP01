@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
+#import "NSString+Reverse.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -22,7 +23,7 @@ int main(int argc, const char * argv[]) {
         // NSLog([p1 firstname]);
         
         [p1 workWithHour:8];
-        
+        NSLog(@"%@", [p1.firstname reverseString]);
   //      NSLog(@"Hello, World!");
     }
     return 0;
