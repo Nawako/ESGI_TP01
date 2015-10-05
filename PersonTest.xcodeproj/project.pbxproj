@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC65B2591BC27DB5003D7681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2581BC27DB5003D7681 /* main.m */; };
+		EC65B2611BC27E41003D7681 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2601BC27E41003D7681 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EC65B2551BC27DB5003D7681 /* PersonTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PersonTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC65B2581BC27DB5003D7681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC65B25F1BC27E41003D7681 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EC65B2601BC27E41003D7681 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EC65B2581BC27DB5003D7681 /* main.m */,
+				EC65B25F1BC27E41003D7681 /* Person.h */,
+				EC65B2601BC27E41003D7681 /* Person.m */,
 			);
 			path = PersonTest;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC65B2611BC27E41003D7681 /* Person.m in Sources */,
 				EC65B2591BC27DB5003D7681 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
