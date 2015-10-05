@@ -7,6 +7,7 @@
 //
 
 #import "NSString+Reverse.h"
+#import "NSMutableString+Character.h"
 
 @implementation NSString (Reverse)
 
@@ -16,7 +17,7 @@
     unichar c;
     for (NSUInteger i= length; i>0; i--) {
         c = [self characterAtIndex:i-1];
-        [result appendString:[NSString alloc]initwith]
+        [result appendCharacter:c];
     }
     return result;
 }
