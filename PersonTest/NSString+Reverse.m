@@ -13,7 +13,11 @@
 - (NSString *)reverseString {
     NSUInteger length = self.length;
     NSMutableString* result = [[NSMutableString alloc] init];
-    
+    unichar c;
+    for (NSUInteger i= length; i>0; i--) {
+        c = [self characterAtIndex:i-1];
+        [result appendString:[NSString alloc]initwith]
+    }
     return result;
 }
 

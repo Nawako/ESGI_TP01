@@ -10,6 +10,7 @@
 		EC65B2591BC27DB5003D7681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2581BC27DB5003D7681 /* main.m */; };
 		EC65B2611BC27E41003D7681 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2601BC27E41003D7681 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		EC65B2641BC2826A003D7681 /* NSString+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2631BC2826A003D7681 /* NSString+Reverse.m */; settings = {ASSET_TAGS = (); }; };
+		EC65B2671BC28544003D7681 /* NSMutableString+Character.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2661BC28544003D7681 /* NSMutableString+Character.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		EC65B2601BC27E41003D7681 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		EC65B2621BC2826A003D7681 /* NSString+Reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Reverse.h"; sourceTree = "<group>"; };
 		EC65B2631BC2826A003D7681 /* NSString+Reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Reverse.m"; sourceTree = "<group>"; };
+		EC65B2651BC28544003D7681 /* NSMutableString+Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Character.h"; sourceTree = "<group>"; };
+		EC65B2661BC28544003D7681 /* NSMutableString+Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Character.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				EC65B2601BC27E41003D7681 /* Person.m */,
 				EC65B2621BC2826A003D7681 /* NSString+Reverse.h */,
 				EC65B2631BC2826A003D7681 /* NSString+Reverse.m */,
+				EC65B2651BC28544003D7681 /* NSMutableString+Character.h */,
+				EC65B2661BC28544003D7681 /* NSMutableString+Character.m */,
 			);
 			path = PersonTest;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC65B2671BC28544003D7681 /* NSMutableString+Character.m in Sources */,
 				EC65B2611BC27E41003D7681 /* Person.m in Sources */,
 				EC65B2641BC2826A003D7681 /* NSString+Reverse.m in Sources */,
 				EC65B2591BC27DB5003D7681 /* main.m in Sources */,
