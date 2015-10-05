@@ -17,7 +17,10 @@ int main(int argc, const char * argv[]) {
         p1.lastname = @"Jean";
         // via le setter
         [p1 setFirstname:@"Louis"];
-        // getter
+        
+        // getter [p1 firstname]
+        // NSLog([p1 firstname]);
+        
         [p1 workWithHour:8];
         
   //      NSLog(@"Hello, World!");
